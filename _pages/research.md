@@ -8,16 +8,16 @@ author_profile: true
 
   <h2>Academic Service</h2>
 
-  <div class="service-grid">
+  <div class="service-panel">
 
-    <div class="service-card">
+    <div class="service-row">
       <h3>Associate Editor</h3>
       <ul>
         <li><em>Pattern Recognition</em></li>
       </ul>
     </div>
 
-    <div class="service-card">
+    <div class="service-row">
       <h3>Area Chair</h3>
       <ul>
         <li>ACM International Conference on Multimedia (ACM MM)</li>
@@ -26,7 +26,7 @@ author_profile: true
       </ul>
     </div>
 
-    <div class="service-card">
+    <div class="service-row">
       <h3>Senior Program Committee Member / Program Committee Member</h3>
       <ul>
         <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
@@ -37,7 +37,7 @@ author_profile: true
       </ul>
     </div>
 
-    <div class="service-card">
+    <div class="service-row">
       <h3>Reviewer for International Journals</h3>
       <ul>
         <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
