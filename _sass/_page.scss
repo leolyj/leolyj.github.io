@@ -22,7 +22,8 @@
   border-bottom: 1px solid var(--research-border);
 }
 
-.research-page h2:first-child {
+.research-page .service-grid,
+.research-page .interest-list {
   margin-top: 0;
 }
 
