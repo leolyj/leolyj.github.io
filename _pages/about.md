@@ -24,7 +24,9 @@ redirect_from:
 
 
 
-# News
+<div class="news-section" markdown="1">
+
+## News
 
 - **[Publications]: Jun. 17, 2026**, two paper was accepted by the European Conference on Computer Vision (**ECCV 2026**).
 
@@ -63,7 +65,7 @@ redirect_from:
 - **[Publications]: Feb. 19, 2020**, our paper **"Deep Multiphase Level Set for Scene Parsing"** was published in **IEEE Transactions on Image Processing (TIP)**.
 
 - **[Publications]: Jul. 22, 2019**, one paper was accepted by the IEEE/CVF International Conference on Computer Vision (**ICCV 2019**) as an **Oral Presentation**.
-
+</div>
 
 
 
