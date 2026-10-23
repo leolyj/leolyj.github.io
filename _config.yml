@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Prof. Yinjie Lei - Homepage"
+title                    : "Prof. Yinjie Lei"
 description              : "Academic homepage of Prof. Yinjie Lei, Sichuan University."
 url                      : "https://leolyj.github.io"
 baseurl                  : ""
