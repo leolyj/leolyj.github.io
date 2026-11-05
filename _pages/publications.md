@@ -10,7 +10,9 @@ author_profile: true
 
 ## 2026
 
-- X. Wang, F. Chen, W. Zhang, et al., "PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models," *European Conference on Computer Vision (ECCV), 2026, pp. 93–110.*
+- X. Wang, F. Chen, W. Zhang, H. Yan, Z. Wang, C. Li, and **Y. Lei**, "PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models," *European Conference on Computer Vision (ECCV), 2026, pp. 93–110.*
+
+- W. Wang, B. Zhang, F. Chen, Z. Wang, W. Li, C. Li, and **Y. Lei**, "Agentic Collaborative Cognition for Zero-Shot 3D Understanding," *European Conference on Computer Vision (ECCV), 2026.*
 
 - Z. Wang, Z. Zhou, F. Chen, D. Peng, Y. Hu, C. Li, and **Y. Lei**, "Training-free Motion Factorization for Compositional Video Generation," *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.*
 
