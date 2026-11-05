@@ -1387,3 +1387,36 @@ body {
     font-size: 25px !important;
   }
 }
+
+
+/* ========================================
+   News Cards - Vertical Alignment
+   News 卡片文字垂直居中
+   ======================================== */
+
+.news-section li {
+  display: flex !important;
+  align-items: center !important;
+  min-height: 76px;
+  box-sizing: border-box;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* 兼容 Markdown 自动生成的段落 */
+.news-section li p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: 100%;
+}
+
+/* 时间轴圆点垂直居中 */
+.news-section li::before {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+/* 多行文字保持自然行距 */
+.news-section li {
+  line-height: 1.85 !important;
+}
