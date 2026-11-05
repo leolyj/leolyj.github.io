@@ -1298,80 +1298,92 @@ b {
 
 
 /* ========================================
-   Final Font Size Adjustment
+   Final Font Size Adjustment - Level 2
+   全站字号提高两个档次
    ======================================== */
 
 /* 全站正文 */
 body {
-  font-size: 18px !important;
-  line-height: 1.75 !important;
+  font-size: 21px !important;
+  line-height: 1.8 !important;
 }
 
 /* 页面正文 */
 .page__content {
-  font-size: 18px !important;
+  font-size: 21px !important;
 }
 
-/* 页面标题 */
+/* 页面一级标题 */
 .page__content h1 {
+  font-size: 34px !important;
+}
+
+/* 页面二级标题 */
+.page__content h2 {
   font-size: 28px !important;
 }
 
-.page__content h2 {
-  font-size: 22px !important;
-}
-
+/* 页面三级标题 */
 .page__content h3 {
-  font-size: 19px !important;
+  font-size: 23px !important;
 }
 
 /* 导航栏 */
 .masthead__menu-item {
-  font-size: 16px !important;
+  font-size: 18px !important;
 }
 
 /* 左侧个人资料 */
 .author__name {
-  font-size: 21px !important;
+  font-size: 24px !important;
 }
 
 .author__bio,
 .author__urls {
-  font-size: 16px !important;
-  line-height: 1.7 !important;
+  font-size: 18px !important;
+  line-height: 1.8 !important;
 }
 
 /* News */
 .news-section li {
-  font-size: 18px !important;
-  line-height: 1.8 !important;
+  font-size: 21px !important;
+  line-height: 1.85 !important;
 }
 
 /* Publications */
 .publication-timeline li {
-  font-size: 18px !important;
-  line-height: 1.8 !important;
+  font-size: 21px !important;
+  line-height: 1.85 !important;
 }
 
 /* Research Interests */
 .interest-content h3 {
-  font-size: 19px !important;
+  font-size: 23px !important;
 }
 
 .interest-content p {
-  font-size: 17px !important;
-  line-height: 1.75 !important;
+  font-size: 20px !important;
+  line-height: 1.8 !important;
 }
 
-/* 手机端 */
+/* 手机端适配 */
 @media (max-width: 600px) {
   body,
   .page__content {
-    font-size: 17px !important;
+    font-size: 19px !important;
   }
 
   .news-section li,
   .publication-timeline li {
-    font-size: 17px !important;
+    font-size: 19px !important;
+    line-height: 1.8 !important;
+  }
+
+  .page__content h1 {
+    font-size: 30px !important;
+  }
+
+  .page__content h2 {
+    font-size: 25px !important;
   }
 }
