@@ -17,7 +17,7 @@ redirect_from:
   <h1>Prof. Yinjie Lei</h1>
 
   <p>
-    <strong>Yinjie Lei</strong> is a Professor and Ph.D. supervisor at the School of Artificial Intelligence, Sichuan University. His research mainly focuses on computer vision, including multimodal perception and cognition, multimodal embodied intelligence, and spatial intelligence. He has published extensively in leading international journals and conferences, including CVPR, ICCV, ECCV, TPAMI, IJCV, and TIP.
+    <strong>Yinjie Lei</strong> is a Professor and Ph.D. supervisor at the School of Artificial Intelligence, Sichuan University. His research interests include Multimodal Learning, Multimodal Large Language Models, and Physical AI. He has published extensively in leading international journals and conferences, including CVPR, ICCV, ECCV, TPAMI, IJCV, and TIP.
   </p>
 </div>
 
