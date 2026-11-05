@@ -20,6 +20,7 @@ author_profile: true
     <div class="service-row">
       <h3>Area Chair</h3>
       <ul>
+        <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
         <li>ACM International Conference on Multimedia (ACM MM)</li>
         <li>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</li>
         <li>AAAI Conference on Artificial Intelligence (AAAI)</li>
