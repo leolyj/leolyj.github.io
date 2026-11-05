@@ -27,6 +27,9 @@ redirect_from:
 <div class="news-section" markdown="1">
 
 ## News
+- **[Services]: Oct. 29, 2026**, I will serve as an Area Chair for the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2027).
+
+- **[Services]: Aug. 25, 2026**, I will serve as an Associate Editor for Pattern Recognition.
 
 - **[Publications]: Jun. 17, 2026**, two paper was accepted by the European Conference on Computer Vision (**ECCV 2026**).
 
