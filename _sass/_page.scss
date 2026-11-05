@@ -1174,3 +1174,124 @@
     left: -27px;
   }
 }
+
+
+/* ========================================
+   Global Typography Optimization
+   全站字体、字号及粗细统一
+   ======================================== */
+
+/* 1. 全站字体 */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Times New Roman", Times,
+               "Songti SC", SimSun, serif !important;
+}
+
+/* 所有普通文本继承统一字体 */
+body * {
+  font-family: inherit;
+}
+
+/* 2. 正文字号及行间距 */
+body {
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+}
+
+/* 3. 页面主标题 */
+.page__content h1 {
+  font-size: 1.55em !important;
+  font-weight: 700 !important;
+  line-height: 1.4;
+}
+
+/* 4. 二级标题 */
+.page__content h2 {
+  font-size: 1.3em !important;
+  font-weight: 700 !important;
+  line-height: 1.5;
+}
+
+/* 5. 三级标题 */
+.page__content h3 {
+  font-size: 1.08em !important;
+  font-weight: 700 !important;
+}
+
+/* 6. 导航栏 */
+.masthead__menu-item {
+  font-size: 15px !important;
+}
+
+/* 7. 左侧个人资料 */
+.author__name {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.author__bio,
+.author__urls {
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+}
+
+/* 8. News 时间轴 */
+.news-section li {
+  font-size: 16px !important;
+  line-height: 1.8 !important;
+}
+
+/* 9. Publications 时间轴 */
+.publication-timeline li {
+  font-size: 16px !important;
+  line-height: 1.8 !important;
+}
+
+/* 10. Research Interests */
+.interest-content h3 {
+  font-size: 18px !important;
+}
+
+.interest-content p {
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+/* 11. 全站取消斜体，保留粗体 */
+em,
+i,
+cite,
+dfn,
+var {
+  font-style: normal !important;
+}
+
+/* 12. 加粗统一 */
+strong,
+b {
+  font-weight: 700 !important;
+}
+
+/* 13. 手机端适配 */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px !important;
+  }
+
+  .page__content h1 {
+    font-size: 1.45em !important;
+  }
+
+  .page__content h2 {
+    font-size: 1.25em !important;
+  }
+
+  .news-section li,
+  .publication-timeline li {
+    font-size: 16px !important;
+  }
+}
