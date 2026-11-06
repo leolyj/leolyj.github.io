@@ -55,14 +55,10 @@ author_profile: true
 
 <div class="interest-list">
 
-  <!-- ==================================================
-       01. Multimodal Understanding and Cognition
-       ================================================== -->
+  <!-- 01. Multimodal Understanding and Cognition -->
   <div class="interest-card">
-
     <div class="interest-header">
       <span class="interest-number">01</span>
-
       <div class="interest-content">
         <h3>Multimodal Understanding and Cognition</h3>
         <p>
@@ -73,43 +69,17 @@ author_profile: true
     </div>
 
     <div class="interest-gallery">
-
-      <img
-        src="/images/1/01.png"
-        alt="Multimodal Understanding and Cognition - Image 1"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/1/02.png"
-        alt="Multimodal Understanding and Cognition - Image 2"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/1/03.png"
-        alt="Multimodal Understanding and Cognition - Image 3"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/1/04.png"
-        alt="Multimodal Understanding and Cognition - Image 4"
-        loading="lazy"
-        decoding="async">
-
+      <img src="/images/1/01.webp" alt="Multimodal Understanding and Cognition - Image 1" loading="lazy" decoding="async">
+      <img src="/images/1/02.webp" alt="Multimodal Understanding and Cognition - Image 2" loading="lazy" decoding="async">
+      <img src="/images/1/03.webp" alt="Multimodal Understanding and Cognition - Image 3" loading="lazy" decoding="async">
+      <img src="/images/1/04.webp" alt="Multimodal Understanding and Cognition - Image 4" loading="lazy" decoding="async">
     </div>
   </div>
 
-
-  <!-- ==================================================
-       02. Multimodal Embodied Intelligence
-       ================================================== -->
+  <!-- 02. Multimodal Embodied Intelligence -->
   <div class="interest-card">
-
     <div class="interest-header">
       <span class="interest-number">02</span>
-
       <div class="interest-content">
         <h3>Multimodal Embodied Intelligence</h3>
         <p>
@@ -120,43 +90,17 @@ author_profile: true
     </div>
 
     <div class="interest-gallery">
-
-      <img
-        src="/images/2/01.png"
-        alt="Multimodal Embodied Intelligence - Image 1"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/2/02.png"
-        alt="Multimodal Embodied Intelligence - Image 2"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/2/03.png"
-        alt="Multimodal Embodied Intelligence - Image 3"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/2/04.png"
-        alt="Multimodal Embodied Intelligence - Image 4"
-        loading="lazy"
-        decoding="async">
-
+      <img src="/images/2/01.webp" alt="Multimodal Embodied Intelligence - Image 1" loading="lazy" decoding="async">
+      <img src="/images/2/02.webp" alt="Multimodal Embodied Intelligence - Image 2" loading="lazy" decoding="async">
+      <img src="/images/2/03.webp" alt="Multimodal Embodied Intelligence - Image 3" loading="lazy" decoding="async">
+      <img src="/images/2/04.webp" alt="Multimodal Embodied Intelligence - Image 4" loading="lazy" decoding="async">
     </div>
   </div>
 
-
-  <!-- ==================================================
-       03. Spatial Intelligence
-       ================================================== -->
+  <!-- 03. Spatial Intelligence -->
   <div class="interest-card">
-
     <div class="interest-header">
       <span class="interest-number">03</span>
-
       <div class="interest-content">
         <h3>Spatial Intelligence</h3>
         <p>
@@ -167,31 +111,10 @@ author_profile: true
     </div>
 
     <div class="interest-gallery">
-
-      <img
-        src="/images/3/01.png"
-        alt="Spatial Intelligence - Image 1"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/3/02.png"
-        alt="Spatial Intelligence - Image 2"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/3/03.png"
-        alt="Spatial Intelligence - Image 3"
-        loading="lazy"
-        decoding="async">
-
-      <img
-        src="/images/3/04.png"
-        alt="Spatial Intelligence - Image 4"
-        loading="lazy"
-        decoding="async">
-
+      <img src="/images/3/01.webp" alt="Spatial Intelligence - Image 1" loading="lazy" decoding="async">
+      <img src="/images/3/02.webp" alt="Spatial Intelligence - Image 2" loading="lazy" decoding="async">
+      <img src="/images/3/03.webp" alt="Spatial Intelligence - Image 3" loading="lazy" decoding="async">
+      <img src="/images/3/04.webp" alt="Spatial Intelligence - Image 4" loading="lazy" decoding="async">
     </div>
   </div>
 
