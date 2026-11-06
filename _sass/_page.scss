@@ -1388,3 +1388,149 @@ body {
   }
 }
 
+
+/* =========================================
+   Research Interests - Image Gallery
+   ========================================= */
+
+.research-page .interest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 12px;
+}
+
+.research-page .interest-card {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 22px;
+  background: #F5F8FC;
+  border: 1px solid #D8E4F0;
+  border-left: 4px solid #365F88;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(41, 78, 112, 0.05);
+  transition: box-shadow 0.25s ease;
+}
+
+.research-page .interest-card:hover {
+  box-shadow: 0 7px 20px rgba(41, 78, 112, 0.10);
+}
+
+/* Title and description */
+
+.research-page .interest-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.research-page .interest-number {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #E4EDF6;
+  color: #365F88;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.research-page .interest-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.research-page .interest-content h3 {
+  margin: 0 0 7px;
+  color: #294E70;
+  font-size: 1.12em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.research-page .interest-content p {
+  margin: 0;
+  color: #526780;
+  font-size: 0.92em;
+  line-height: 1.7;
+}
+
+/* Image gallery: 2 columns x 2 rows */
+
+.research-page .interest-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.research-page .interest-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 3px;
+  border: 1px solid #E1E8F0;
+  border-radius: 7px;
+  background: #FFFFFF;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.research-page .interest-gallery img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 4px 12px rgba(41, 78, 112, 0.12);
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .research-page .interest-card {
+    padding: 18px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .research-page .interest-list {
+    gap: 16px;
+  }
+
+  .research-page .interest-card {
+    padding: 14px;
+  }
+
+  .research-page .interest-header {
+    gap: 10px;
+    margin-bottom: 13px;
+  }
+
+  .research-page .interest-number {
+    width: 30px;
+    height: 30px;
+    font-size: 0.82em;
+  }
+
+  .research-page .interest-content h3 {
+    font-size: 1em;
+  }
+
+  .research-page .interest-content p {
+    font-size: 0.88em;
+  }
+
+  .research-page .interest-gallery {
+    gap: 8px;
+  }
+}
