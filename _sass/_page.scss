@@ -1470,27 +1470,35 @@ body {
   width: 100%;
 }
 
+
+.research-page .interest-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+
 .research-page .interest-gallery img {
-  display: block;
-  width: 100%;
-  height: auto;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
   aspect-ratio: 16 / 9;
-  object-fit: contain;
-  object-position: center;
-  box-sizing: border-box;
-  margin: 0;
+  object-fit: contain !important;
+  object-position: center !important;
+  margin: 0 !important;
   padding: 3px;
+  box-sizing: border-box;
+  background: #FFFFFF;
   border: 1px solid #E1E8F0;
   border-radius: 7px;
-  background: #FFFFFF;
-  transition: transform 0.25s ease,
-              box-shadow 0.25s ease;
 }
 
 .research-page .interest-gallery img:hover {
   transform: scale(1.015);
   box-shadow: 0 4px 12px rgba(41, 78, 112, 0.12);
 }
+
 
 /* Tablet */
 
